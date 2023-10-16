@@ -1,0 +1,135 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #505050;
+  color: #fff;
+}
+
+/* .container {
+  max-width: 1920px;
+  padding: 0px;
+  margin: 0;
+  height: 100%;
+} */
+
+/* =======================================HEADER============================================================ */
+
+.label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 100px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.calculator {
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 60px;
+  background-color: #dbdbdb;
+}
+
+.calculator__label {
+  width: 100%;
+  height: 180px;
+}
+
+.calculator__label input {
+  background-color: #dbdbdb;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+
+}
+
+.calculator__btn {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px 10px 10px;
+}
+
+.btn-line1, .btn-line2, .btn-line3, .btn-line4, .btn-line5 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+}
+
+.button {
+  height: 100%;
+  width: 90px;
+  border: 1px solid black;
+  font-size: 38px;
+  border-radius: 5px;
+}
+
+.redredbtn {
+  font-size: 30px;
+  background-color: #cc2626;
+}
+
+.redbtn {
+  font-size: 30px;
+  background-color: #e77272;
+}
+
+.greenbtn {
+  background-color: rgb(102, 187, 102);
+}
+
+.button:hover {
+  background-color: #8f8f8f98;
+}
+
+.redredbtn:hover {
+  background-color: #cc0505;
+}
+
+.redbtn:hover {
+  background-color: #e64a4a;
+}
+
+.greenbtn:hover {
+  background-color: rgb(43, 187, 43);
+}
+
+.button:active {
+  background-color: rgb(149, 133, 241);
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+
+/* ===========================NAVIGATION================================= */
+
+/* ---------------------------------------------------------------------- */
+
+/* =======================================MAIN============================================================== */
+
+/* ---------------------------------------------------------------------- */
+
+/* ===========================ARTICLE=1================================= */
+
+/* ---------------------------------------------------------------------- */
+
+/* ===========================ARTICLE=2================================= */
+
+/* ---------------------------------------------------------------------- */
+
+/* =======================================FOOTER============================================================ */
+
+/* ---------------------------------------------------------------------- */
